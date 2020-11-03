@@ -18,7 +18,7 @@ impl Vstupy {
         self.a / self.b
     }
     fn krat(self) -> f64 {
-        self.a - self.b
+        self.a * self.b
     }
 }
 fn main() {
